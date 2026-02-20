@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хоменко Александр Сергеевич - Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    <canvas id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#bio">О себе</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#hobbies">Интересы</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Соня Говна Кусок">Соня Говна Кусок</h1>
+            <p class="subtitle">Веб-разработчик • Креативный мыслитель • Innovator</p>
+            <a href="#bio" class="cta-button">Узнать больше</a>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <!-- Bio Section -->
+    <section id="bio">
+        <h2 class="section-title">Обо мне</h2>
+        <div class="bio-container">
+            <div class="profile-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="profile-image"></div>
+                        <h3>Александр Хоменко</h3>
+                        <p style="color: #ff00ff; font-size: 1.2rem;">20 лет</p>
+                        <p style="opacity: 0.8;">Наведи, чтобы узнать больше</p>
+                    </div>
+                    <div class="card-back">
+                        <div>
+                            <h3>Мои принципы</h3>
+                            <p>💡 Инновации превыше всего</p>
+                            <p>🎯 Качество важнее количества</p>
+                            <p>🚀 Постоянное развитие</p>
+                            <p>🤝 Командная работа</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bio-text">
+                <h2>Хоменко Александр Сергеевич</h2>
+                <p class="age">20 лет</p>
+                <p>Привет! Я — молодой и амбициозный веб-разработчик, который живет на стыке технологий и креатива. Моя страсть — создавать цифровые продукты, которые не просто работают, а вдохновляют.</p>
+                <p>Верю, что будущее за теми, кто не боится экспериментировать и выходить за рамки привычного. Каждая строка кода для меня — это возможность создать что-то уникальное.</p>
+                <p>В свободное время изучаю новые технологии, работаю над pet-проектами и постоянно совершенствую свои навыки. Мой девиз: "Учись, создавай, вдохновляй!"</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Технические навыки</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>Frontend Development</h3>
+                <p>HTML5, CSS3, JavaScript ES6+, React, адаптивный дизайн</p>
+                <div class="skill-meter">
+                    <div class="skill-meter-fill" data-width="90%"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h3>Backend Development</h3>
+                <p>Python, Node.js, API разработка, базы данных</p>
+                <div class="skill-meter">
+                    <div class="skill-meter-fill" data-width="75%"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h3>UI/UX Design</h3>
+                <p>Figma, Adobe XD, прототипирование, пользовательский опыт</p>
+                <div class="skill-meter">
+                    <div class="skill-meter-fill" data-width="80%"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h3>Version Control</h3>
+                <p>Git, GitHub, GitLab, командная разработка</p>
+                <div class="skill-meter">
+                    <div class="skill-meter-fill" data-width="85%"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h3>Mobile Development</h3>
+                <p>React Native, Progressive Web Apps, кроссплатформенная разработка</p>
+                <div class="skill-meter">
+                    <div class="skill-meter-fill" data-width="70%"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h3>DevOps & Cloud</h3>
+                <p>Docker, CI/CD, AWS, деплой и автоматизация</p>
+                <div class="skill-meter">
+                    <div class="skill-meter-fill" data-width="65%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+        <h2 class="section-title">Интересы и увлечения</h2>
+        <div class="hobbies-grid">
+            <div class="hobby-card">
+                <div class="hobby-icon">💻</div>
+                <h3>Программирование</h3>
+                <p>Open Source проекты и изучение новых фреймворков</p>
+            </div>
+            <div class="hobby-card">
+                <div class="hobby-icon">🎮</div>
+                <h3>Game Development</h3>
+                <p>Создание инди-игр на Unity и Unreal Engine</p>
+            </div>
+            <div class="hobby-card">
+                <div class="hobby-icon">🤖</div>
+                <h3>Искусственный интеллект</h3>
+                <p>ML, нейронные сети и автоматизация</p>
+            </div>
+            <div class="hobby-card">
+                <div class="hobby-icon">📚</div>
+                <h3>Чтение</h3>
+                <p>Научная фантастика и техническая литература</p>
+            </div>
+            <div class="hobby-card">
+                <div class="hobby-icon">🎵</div>
+                <h3>Музыка</h3>
+                <p>Electronic, Synthwave, Lo-Fi Hip Hop</p>
+            </div>
+            <div class="hobby-card">
+                <div class="hobby-icon">📷</div>
+                <h3>Фотография</h3>
+                <p>Городская и техническая фотография</p>
+            </div>
+            <div class="hobby-card">
+                <div class="hobby-icon">⚡</div>
+                <h3>Киберспорт</h3>
+                <p>Стратегии и командные онлайн-игры</p>
+            </div>
+            <div class="hobby-card">
+                <div class="hobby-icon">🚀</div>
+                <h3>Космос и технологии</h3>
+                <p>SpaceX, NASA, инновации будущего</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts">
+        <h2 class="section-title">Свяжитесь со мной</h2>
+        <div class="contacts-container">
+            <div class="contact-card">
+                <div class="contact-icon">📧</div>
+                <div class="contact-info">
+                    <strong>Email</strong><br>
+                    <a href="mailto:clownMail@gmail.com">clownMail@gmail.com</a>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">💼</div>
+                <div class="contact-info">
+                    <strong>LinkedIn</strong><br>
+                    <a href="https://linkedin.com/in/alexanderkhomenko" target="_blank">linkedin.com/in/alexanderkhomenko</a>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">🐙</div>
+                <div class="contact-info">
+                    <strong>GitHub</strong><br>
+                    <a href="https://github.com/alexkhomenko" target="_blank">github.com/alexkhomenko</a>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">💬</div>
+                <div class="contact-info">
+                    <strong>Telegram</strong><br>
+                    <a href="https://t.me/alex_khomenko" target="_blank">@alex_khomenko</a>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">🐦</div>
+                <div class="contact-info">
+                    <strong>Twitter/X</strong><br>
+                    <a href="https://twitter.com/alexkhomenko" target="_blank">@alexkhomenko</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Хоменко Александр Сергеевич</p>
+        <p>Создано с помощью передовых веб-технологий 🚀</p>
+        <div class="social-links">
+            <a href="https://github.com/alexkhomenko" target="_blank">🐙</a>
+            <a href="https://linkedin.com/in/alexanderkhomenko" target="_blank">💼</a>
+            <a href="https://t.me/alex_khomenko" target="_blank">💬</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
